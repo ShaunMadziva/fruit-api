@@ -30,7 +30,7 @@ class Fruit {
 
   static create(data) {
     const newFruit = data;
-    console.log(newFruit);
+    //console.log(newFruit);
 
     newFruit.id = fruits.length + 1;
     fruits.push(newFruit);

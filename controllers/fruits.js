@@ -33,9 +33,9 @@ const update = async (req, res) => {
 
   try {
     const fruit = await Fruit.show(name);
-    console.log("OurFruit", fruit); // works
+    //console.log("OurFruit", fruit); // works
     const result = await fruit.update(req.body);
-    console.log("OurResult", result);
+    //console.log("OurResult", result);
 
     res.status(200).send(result);
   } catch (err) {
